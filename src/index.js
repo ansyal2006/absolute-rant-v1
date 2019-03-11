@@ -44,7 +44,7 @@ io.on('connection', (socket) => {
     })
     socket.emit('Message', generateMsg('SMARTEST ADMIN EVER :)',`Welcome ${username}. Hope you are not that boring.`)); //socket.emit() sends the event to only the client which has made the connection to the server now.
                                         //io.emit() sends the event to every client that is connected to the server including the client that made the connection now.
-    socket.broadcast.to(user.room).emit('Message', generateMsg('SMART ADMIN',`Some ${username} joined. As if this place needed any more of you people.`)); //socket.broadcast.emit() sends the event to every client except the client that has made the connection now.
+    socket.broadcast.to(user.room).emit('Message', generateMsg('SMARTEST ADMIN EVER :)',`Some ${username} joined. As if this place needed any more of you people.`)); //socket.broadcast.emit() sends the event to every client except the client that has made the connection now.
 
     callback()
   });
@@ -58,7 +58,7 @@ io.on('connection', (socket) => {
     io.to(user.room).emit('Message', generateMsg(user.username, msg));
 
     if(filter.isProfane(msg)){
-        io.to(user.room).emit('Message', generateMsg("SMART ADMIN", 'Badi gaali dete ho be. Mirjapur se lagte ho'));
+        io.to(user.room).emit('Message', generateMsg("SMARTEST ADMIN EVER :)", 'Badi gaali dete ho be. Mirjapur se lagte ho'));
     }
 
     acknowledgment('Message Delivered');
@@ -82,7 +82,7 @@ io.on('connection', (socket) => {
         users : getUsersInRoom(user.room)
       })
       //note that the client that connected on this socket is now disconnected, so that means we should use io.emit() and NOT socket.broadcast.emit() to notify the remaining clients connected to the server.
-      io.to(user.room).emit('Message', generateMsg('SMART ADMIN', `Some ${user.username} just left. I HAVE FEELINGS TOO YOU KNOW!!!`));
+      io.to(user.room).emit('Message', generateMsg('SMARTEST ADMIN EVER :)', `Some ${user.username} just left. I HAVE FEELINGS TOO YOU KNOW!!!`));
     }
   });
 });

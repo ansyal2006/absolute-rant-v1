@@ -66,7 +66,7 @@ ul {
 li {
   font-weight: 300;
   padding: 12px 24px 0 24px;
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-family: 'Comic Neue Angular', cursive, sans-serif;
 }
  /* before the ist items - bullets etc. */
 li::before {
@@ -148,13 +148,13 @@ li::before {
     font-weight: 600;
     font-size: 14px;
     margin-right: 8px;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: 'Comic Neue Angular', cursive, sans-serif;
 }
 
 .message__meta {
     color: #777;
     font-size: 14px;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: 'Comic Neue Angular', cursive, sans-serif;
 }
 
 .message a {
@@ -162,7 +162,7 @@ li::before {
 }
 
 .msg_container {
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-family: 'Comic Neue Angular', cursive, sans-serif;
   font-size: 14px;
   border: 2px solid #dedede;
   background-color: #f1f1f1;
@@ -206,7 +206,7 @@ li::before {
     background: #2c2f3a;
     padding: 24px;
     text-align: center;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: 'Comic Neue Angular', cursive, sans-serif;
 }
 
 .list-title {
@@ -214,7 +214,7 @@ li::before {
     font-size: 18px;
     margin-bottom: 4px;
     padding: 12px 24px 0 24px;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: 'Comic Neue Angular', cursive, sans-serif;
 }
 
 .users {
@@ -234,24 +234,25 @@ li::before {
   color: white;
   font-size: 16px;
   transition: background .3s ease;
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-family: 'Comic Neue Angular', cursive, sans-serif;
 }
 
 .customStyle1{
   text-align: center;
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-family: "Comic Neue Angular", sans-serif;
 }
 
 .customStyle2{
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-family: "Comic Neue Angular", sans-serif;
 }
 
 .customStyle3{
   text-align: center;
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-family: 'Comic Neue Angular', sans-serif;
   background-color: #7C5CBF;
   color : #FFFFFF;
 }
+
 .copyrightStyle{
   text-align: center;
   padding:5%;"
@@ -263,4 +264,14 @@ li::before {
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
+}
+
+@font-face {
+  font-family: 'Comic Neue Angular';
+  src: url('../fonts/ComicNeue-Angular-Regular.eot');
+  src: url('../fonts/ComicNeue-Angular-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/ComicNeue-Angular-Regular.woff2') format('woff2'),
+       url('../fonts/ComicNeue-Angular-Regular.woff') format('woff'),
+       url('../fonts/ComicNeue-Angular-Regular.ttf')  format('truetype');
+  font-weight: 400;
 }
