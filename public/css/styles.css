@@ -256,3 +256,11 @@ li::before {
   text-align: center;
   padding:5%;"
 }
+
+.dot {
+  height: 17px;
+  width: 17px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
