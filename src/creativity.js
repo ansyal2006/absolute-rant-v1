@@ -1,0 +1,3 @@
+
+var creativeWords = ['loda','lodu','bhosdiwale', 'bhosdi', 'jalaj', 'madarjaat','laand','betichod','çhoosiye','baklol','haraam','haram','chuttadh','chuttad','puta','jhaantu','jhaant','jhaat','jhaatu','lavda','tatti','bitch','asshole','ghusand','lodapa','chutiya','chutiyapa','chutiyap','chutiyaap', 'gand' , 'gaand', 'gandu' , 'gaandu', 'haggu', 'lode', 'bakchod', 'bakchodi', 'lund', 'randi', 'raand', 'chutia', 'chutiapa', 'chodu', 'chut', 'choot', 'madar', 'madarchod','bhnchod', 'bhenchod', 'bkl', 'bc', 'mc', 'behen ke lode', 'maa ke lode','loduchand', 'bhadwe', 'bhadve', 'landu'];
+module.exports = {creativeWords};
