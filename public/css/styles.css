@@ -234,4 +234,25 @@ li::before {
   color: white;
   font-size: 16px;
   transition: background .3s ease;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.customStyle1{
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.customStyle2{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.customStyle3{
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  background-color: #7C5CBF;
+  color : #FFFFFF;
+}
+.copyrightStyle{
+  text-align: center;
+  padding:5%;"
 }
